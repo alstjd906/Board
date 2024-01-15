@@ -20,6 +20,7 @@ public class PostController {
             PostResponse post = postService.findPostById(id);
             model.addAttribute("post", post);
             String master = "master";
+            String author = "author change";
 
 
         }
