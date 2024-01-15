@@ -19,11 +19,10 @@ public class PostController {
         if (id != null) {
             PostResponse post = postService.findPostById(id);
             model.addAttribute("post", post);
-            String b = "b";
-            String ab = "1";
-            String abc = "1";
-            String abd = "1";
-            String abe = "1";
+            String develop = "develop";
+            String develop2 = "develop";
+            String develop3 = "develop";
+
 
         }
         return "post/write";
