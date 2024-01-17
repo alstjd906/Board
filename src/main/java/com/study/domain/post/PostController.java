@@ -22,7 +22,6 @@ public class PostController {
             String develop = "develop";
             String develop2 = "develop";
             String develop3 = "develop";
-            String a = "a";
 
         }
         return "post/write";
