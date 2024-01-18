@@ -12,6 +12,7 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello(){
+        String a = "a";
         return helloService.sayHello() + "GitFlowSample";
     }
 }
